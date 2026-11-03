@@ -42,8 +42,8 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <ul>
 <li>App Name: Midday Catch (Google Play Package: com.sbgc.fishing)</li>
 <li>Data Controller: Individual Developer Kim Seunghoon (Google Play Developer Name: s.h.)</li>
-<li>Effective Date: November 2, 2026</li>
-<li>Last Updated: November 2, 2026</li>
+<li>Effective Date: November 3, 2026</li>
+<li>Last Updated: November 3, 2026</li>
 </ul>
 <p>Kim Seunghoon (the "Developer") processes the personal information of Midday Catch users (the "App") in accordance with applicable laws including the Personal Information Protection Act. This policy explains what information the App collects, where it is stored, who receives it, and how users can exercise their rights.</p>
 <h2>Summary</h2>
@@ -67,7 +67,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <table><thead><tr><th>Feature</th><th>Information Transmitted</th><th>Purpose</th><th>Optional or Required</th></tr></thead><tbody>
 <tr><td data-label="Feature">Play Games (Play Games Service)</td><td data-label="Information Transmitted">If logged in: Play Games player ID, profile name and avatar, leaderboard score (Today's Big Catch daily high score), achievements (fish log 40, monthly record 40, guardian species 6), and diagnostic information automatically collected by Play Games SDK</td><td data-label="Purpose">Record rankings and achievements, SDK improvements</td><td data-label="Optional or Required">Optional. Game is fully playable without logging in (auto-login explained below)</td></tr>
 <tr><td data-label="Feature">Google Play Billing</td><td data-label="Information Transmitted">Purchase history (items, purchase status, etc.)</td><td data-label="Purpose">Payment processing, purchase confirmation and restoration</td><td data-label="Optional or Required">Payment only when purchasing. Purchase status is checked from Google Play when app starts, when resuming, and when entering the store</td></tr>
-<tr><td data-label="Feature">AdMob Ads (Google Mobile Ads SDK)</td><td data-label="Information Transmitted">IP address (may be used for approximate location estimation), app interactions like ad viewing, app performance diagnostic information, device identifiers like advertising ID and app set ID</td><td data-label="Purpose">Display ads, frequency capping and measurement, fraud prevention</td><td data-label="Optional or Required">Ads are displayed by the App. Personalized ad preference is explained in section 2</td></tr>
+<tr><td data-label="Feature">AdMob Ads (Google Mobile Ads SDK)</td><td data-label="Information Transmitted">IP address (may be used for approximate location estimation), app interactions like ad viewing, app performance diagnostic information, device identifiers like advertising ID and app set ID. If an error occurs in the ad feature, the Google Mobile Ads SDK may send error details (stack information) and device information (device type, OS version, memory status, app version) to Google. App code content is redacted before it is sent</td><td data-label="Purpose">Display ads, frequency capping and measurement, fraud prevention, checking ad feature errors</td><td data-label="Optional or Required">Ads are displayed by the App. Personalized ad preference is explained in section 2. Sending error information cannot be turned off by the user</td></tr>
 </tbody></table>
 <ul>
 <li>Play Games Service auto-signs in when the app starts. If your device's Google account has a Play Games profile, you may be logged in without explicitly signing in, and rankings and achievements are automatically uploaded while logged in. If you don't have a profile, Google may suggest creating one, but you can use the game without it. Reference: <a href="https://developer.android.com/games/pgs/android/android-signin">https://developer.android.com/games/pgs/android/android-signin</a></li>
@@ -83,7 +83,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <ul>
 <li>We do not ask for personal information like name, phone number, address, or date of birth.</li>
 <li>We do not request location, contacts, photos/storage, camera, or microphone permissions.</li>
-<li>The App does not use its own crash reporting or analytics tools and does not collect crash or performance information from within the app. Information collected by Play Games SDK and Google Mobile Ads SDK is explained in section 1.2.</li>
+<li>The App does not use its own crash reporting or analytics tools. However, the Google Mobile Ads SDK may send error details to Google when an error occurs in the ad feature; this information is described in section 1.2. Information collected by the Play Games SDK on its own is also described in section 1.2.</li>
 <li>The Developer does not separately receive or store advertising IDs. The Google Mobile Ads SDK uses the advertising ID for ad display (section 1.2).</li>
 </ul>
 <h3>1.5 Google Play App Quality Information (Android vitals)</h3>

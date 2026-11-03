@@ -42,7 +42,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <ul>
 <li>App Name: Embroidery Box (Google Play Package Name: com.sbgc.stitchbox)</li>
 <li>Personal Information Controller: Individual Developer Kim Seunghoon (Google Play Developer Name: s.h.)</li>
-<li>Effective Date: October 26, 2026</li>
+<li>Effective Date: November 3, 2026</li>
 <li>Last Modified: October 26, 2026</li>
 </ul>
 <p>Kim Seunghoon (the "Developer") processes the personal information of users of Embroidery Box (the "App") in accordance with applicable laws, including the Korean Personal Information Protection Act. This policy explains what information the App stores and where, whom it sends information to, and how users can make choices and exercise their rights.</p>
@@ -83,7 +83,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <table><thead><tr><th>Feature</th><th>Information Sent</th><th>Purpose</th><th>Required?</th></tr></thead><tbody>
 <tr><td data-label="Feature">Play Games (Play Games Services)</td><td data-label="Information Sent">If signed in: Play Games player ID, profile name and avatar, achievements, and the saved game in section 1.2. In addition, analytics and diagnostic information that the Play Games SDK collects automatically</td><td data-label="Purpose">Achievements, cloud save. Google uses the analytics and diagnostic information for SDK stability and product improvement</td><td data-label="Required?">Optional. The whole game can be played without signing in (see automatic sign-in below)</td></tr>
 <tr><td data-label="Feature">Google Play billing</td><td data-label="Information Sent">Purchase history (product, purchase state, etc.)</td><td data-label="Purpose">Process payments, confirm and restore purchases</td><td data-label="Required?">Payment only when you buy. To check purchase status, the App queries Google Play for this App's purchase history when it starts, returns to the foreground, or opens the shop</td></tr>
-<tr><td data-label="Feature">AdMob ads (Google Mobile Ads SDK)</td><td data-label="Information Sent">IP address (may be used to estimate general location), ad interactions such as app launches, taps, and video views, app performance diagnostics, and device identifiers such as the advertising ID and app set ID</td><td data-label="Purpose">Show ads, frequency capping and measurement, fraud prevention</td><td data-label="Required?">The App shows ads. For personalization, see section 2</td></tr>
+<tr><td data-label="Feature">AdMob ads (Google Mobile Ads SDK)</td><td data-label="Information Sent">IP address (may be used to estimate general location), ad interactions such as app launches, taps, and video views, app performance diagnostics, and device identifiers such as the advertising ID and app set ID. If an error occurs in the ad feature, the Google Mobile Ads SDK may send error details (stack information) and device information (device type, OS version, memory status, app version) to Google. App code content is redacted before it is sent</td><td data-label="Purpose">Show ads, frequency capping and measurement, fraud prevention, checking ad feature errors</td><td data-label="Required?">The App shows ads. For personalization, see section 2. Sending error information cannot be turned off by the user</td></tr>
 </tbody></table>
 <ul>
 <li>Play Games Services tries to sign you in automatically when the App starts. If the Google account on the device has a Play Games profile, you may be signed in without tapping anything, and while signed in, achievements and the saved game are uploaded to Play Games automatically. If there is no profile, Google may suggest creating one; you can keep playing without it. Source: <a href="https://developer.android.com/games/pgs/android/android-signin">https://developer.android.com/games/pgs/android/android-signin</a></li>
@@ -99,7 +99,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <ul>
 <li>The App does not ask for your name, phone number, address, date of birth, or other personal details.</li>
 <li>The App does not request location, contacts, photos/storage, camera, or microphone permissions.</li>
-<li>The App uses no crash-reporting or analytics tools of its own and does not collect crash or performance information within the App. Information that the Play Games SDK and the Google Mobile Ads SDK collect on their own is described in section 1.3.</li>
+<li>The App does not use its own crash reporting or analytics tools. However, the Google Mobile Ads SDK may send error details to Google when an error occurs in the ad feature; this information is described in section 1.3. Information collected by the Play Games SDK on its own is also described in section 1.3.</li>
 <li>The Developer does not receive or keep the advertising ID. The Google Mobile Ads SDK uses the advertising ID to show ads (section 1.3).</li>
 </ul>
 <h3>1.6 Google Play App Quality Information (Android vitals)</h3>
@@ -191,7 +191,7 @@ footer{margin-top:48px;font-size:14px;color:var(--muted)}
 <h2>11. Changes to This Policy</h2>
 <p>If this policy changes, the changes and the effective date will be posted on this page at least 7 days before they take effect. For significant changes, such as more items collected or wider sharing, notice will be given at least 30 days in advance, and consent will be obtained again if required by law.</p>
 <ul>
-<li>Effective Date: October 26, 2026</li>
+<li>Effective Date: November 3, 2026</li>
 <li>Last Modified: October 26, 2026</li>
 </ul>
 </main>
